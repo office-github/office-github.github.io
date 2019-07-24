@@ -11,10 +11,13 @@
 .menu nav {
     position: fixed;
     width: 25%;
-	margin-top: 20px;
 }
 
-.menu a:first-child {
+.menu nav img {
+	margin: 10px;
+}
+
+.menu a:nth-child(2) {
 	border-top: 2px solid #666;	
 }
 
@@ -34,6 +37,7 @@
 
 .menu a:hover {
     background: #ccc;
+	color: #000;
 }
 
 .content {
@@ -42,8 +46,10 @@
 }
 
 .content div.target {
-    background: #ccc;
+    background: #f8f4f4;
     height: 800px;
+	border-radius: 5px;
+	margin-bottom: 10px;
 }
 
 .content div.target:nth-child(even) {
@@ -76,11 +82,11 @@
 }
 
 .footer {
+	border-radius: 5px;
 	clear: both;
 	bottom: 0;
 	width: 100%;
 	height: 200px;
-	background-color: gray;
-	color: white;
+	background-color: #f8f7f3;
 	text-align: center;
 }
