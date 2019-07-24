@@ -2,26 +2,18 @@
     margin: 0;
     padding: 0;
 }
-#main {
-    width: 75%;
-    float: right;
-}
-#main div.target {
-    background: #ccc;
-    height: 400px;
-}
-#main div.target:nth-child(even) {
-    background: #eee;
-}
-#nav {
+
+.menu {
     width: 25%;
     position: relative;
 }
-#nav nav {
+
+.menu nav {
     position: fixed;
     width: 25%;
 }
-#nav a {
+
+.menu a {
     border-bottom: 1px solid #666;
     color: #333;
     display: block;
@@ -29,7 +21,33 @@
     text-align: center;
     text-decoration: none;
 }
-#nav a:hover, #nav a.active {
+
+.menu a:hover, .menu a.active {
     background: #666;
     color: #fff;
+}
+
+.content {
+    width: 75%;
+    float: right;
+}
+
+.content div.target {
+    background: #ccc;
+    height: 800px;
+}
+
+.content div.target:nth-child(even) {
+    background: #eee;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 150px;
+	background-color: gray;
+	color: white;
+	text-align: center;
 }
