@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+a {	
+	text-decoration: none;
+}
+
 .menu {
     width: 25%;
     position: relative;
@@ -27,7 +31,6 @@
     display: block;
     padding: 10px;
     text-align: center;
-    text-decoration: none;
 }
 
 .menu a.active {
@@ -45,6 +48,15 @@
     float: right;
 }
 
+.permalink { 
+	visibility: hidden; 
+}
+
+a:hover + .permalink {
+	visibility: visible; 
+	color: gray;
+}
+
 .content div.target {
     background: #f8f4f4;
     height: 800px;
@@ -57,16 +69,20 @@
 }
 
 .content .title {
-	padding-top: 20px;
-	padding-bottom: 10px;
 	text-align: center;
+	padding: 10px 0px 10px 10px;
 	font-size: 30px;
 	font-weight: bolder;
+	cursor: pointer;
+	border: 1px solid black;
+}
+
+.content .title a {
+	color: black;
 }
 
 .content .sub-title {
-	padding-bottom: 10px;
-	text-align: center;
+	padding-left: 20px;
 	font-size: 20px;
 	font-weight: bolder;
 }
