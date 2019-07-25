@@ -19,6 +19,7 @@ a {
 
 .menu nav img {
 	margin: 10px;
+	border-radius: 50%;
 }
 
 .menu a:nth-child(2) {
@@ -59,7 +60,6 @@ a:hover + .permalink {
 
 .content div.target {
     background: #f8f4f4;
-    height: 800px;
 	border-radius: 5px;
 	margin-bottom: 10px;
 }
@@ -73,8 +73,7 @@ a:hover + .permalink {
 	padding: 10px 0px 10px 10px;
 	font-size: 30px;
 	font-weight: bolder;
-	cursor: pointer;
-	border: 1px solid black;
+	border-bottom: 1px solid black;
 }
 
 .content .title a {
@@ -82,7 +81,7 @@ a:hover + .permalink {
 }
 
 .content .sub-title {
-	padding-left: 20px;
+	margin: 20px;
 	font-size: 20px;
 	font-weight: bolder;
 }
@@ -94,6 +93,7 @@ a:hover + .permalink {
 
 .content .note {
 	margin: 20px;
+	padding-bottom: 5px;
 	font-size: 15px;
 }
 

@@ -6,7 +6,7 @@ $(function(){
 	
 	$(window).on('scroll', function() {
 		$('.target').each(function() {
-			if($(window).scrollTop() >= $(this).offset().top) {
+			if($(window).scrollTop() + 100 >= $(this).offset().top) {
 				var id = $(this).attr('id');
 				$('.menu nav a').removeClass('active');
 				$('.menu nav a[href="#'+ id +'"]').addClass('active');
