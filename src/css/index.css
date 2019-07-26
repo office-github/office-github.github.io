@@ -49,6 +49,26 @@ a {
     float: right;
 }
 
+.content .contact {
+	//font-size: 20px;
+	text-align: right;
+	margin: 10px 20px;
+}
+
+.content .contact .mobile {
+	margin-right: 37px;
+}
+
+.content .contact .email span:nth-child(1) {
+	padding-right: 15px;
+	font-weight: bold;
+}
+
+.content .contact .mobile span:nth-child(1) {
+	padding-right: 5px;
+	font-weight: bold;
+}
+
 .permalink { 
 	visibility: hidden; 
 }
@@ -71,7 +91,7 @@ a:hover + .permalink {
 .content .title {
 	text-align: center;
 	padding: 10px 0px 10px 10px;
-	font-size: 30px;
+	//font-size: 30px;
 	font-weight: bolder;
 	border-bottom: 1px solid black;
 }
@@ -82,23 +102,41 @@ a:hover + .permalink {
 
 .content .sub-title {
 	margin: 20px;
-	font-size: 20px;
+	//font-size: 20px;
 	font-weight: bolder;
 }
 
+.content .sub-title span:nth-child(1) {
+}
+
+.content .sub-title span:nth-child(2) {
+	font-weight: normal;
+	//font-size: 16px;
+}
+
 .content .body {
-	margin: 20px;
-	font-size: 18px;
+	margin: 20px 45px;
+	//font-size: 18px;
+}
+
+.body table thead th {
+	padding-left: 100px;
+	padding-bottom: 5px;
+}
+
+.body table tbody tr td {
+	padding-left: 100px;
+	text-align: center;
+	//font-size: 16px;
 }
 
 .content .note {
 	padding-bottom: 5px;
-	font-size: 15px;
+	//font-size: 15px;
 }
 
 .body .header {
-	margin: 5px 0px 5px 20px;
-	font-size: 16px;
+	margin: 5px 0px;
 }
 
 .body .header span:nth-child(1) {
