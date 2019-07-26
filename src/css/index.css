@@ -182,3 +182,11 @@ a:hover + .permalink {
 .footer .social-media a {
 	margin: 3px;
 }
+
+
+/*For Small Screens */
+@media screen and (max-width: 680px) {
+	.content .contact .mobile {
+		margin-right: 57px;
+	}
+}
