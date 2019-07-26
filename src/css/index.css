@@ -187,6 +187,6 @@ a:hover + .permalink {
 /*For Small Screens */
 @media screen and (max-width: 680px) {
 	.content .contact .mobile {
-		margin-right: 57px;
+		//margin-right: 57px;
 	}
 }
