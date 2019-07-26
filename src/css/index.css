@@ -92,9 +92,21 @@ a:hover + .permalink {
 }
 
 .content .note {
-	margin: 20px;
 	padding-bottom: 5px;
 	font-size: 15px;
+}
+
+.body .header {
+	margin: 5px 0px 5px 20px;
+	font-size: 16px;
+}
+
+.body .header span:nth-child(1) {
+	font-weight: bold;
+}
+
+.body .header span:nth-child(2) {
+	margin-left: 10px;
 }
 
 .footer {
