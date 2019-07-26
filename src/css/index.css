@@ -17,8 +17,12 @@ a {
     width: 25%;
 }
 
+.menu .profile {
+	width: 100%;
+}
+
 .menu nav img {
-	margin: 10px;
+	margin: 5% 5% 5% 2%;
 	border-radius: 50%;
 }
 
