@@ -119,15 +119,28 @@ a:hover + .permalink {
 	//font-size: 18px;
 }
 
+.body table {
+	margin-left:auto;
+	margin-right:auto;
+}
+
 .body table thead th {
-	padding-left: 100px;
+	padding-right: 100px;
 	padding-bottom: 5px;
 }
 
+.body table thead th:last-child {
+	padding-right: 0px;
+}
+
 .body table tbody tr td {
-	padding-left: 100px;
+	padding-right: 100px;
 	text-align: center;
 	//font-size: 16px;
+}
+
+.body table tbody tr td:last-child {
+	padding-right: 0px;
 }
 
 .content .note {
@@ -152,7 +165,19 @@ a:hover + .permalink {
 	clear: both;
 	bottom: 0;
 	width: 100%;
-	height: 200px;
+	height: 100px;
 	background-color: #f8f7f3;
 	text-align: center;
+}
+
+.footer .copyright {
+	padding-top: 20px;
+}
+
+.footer .social-media {
+	margin: 10px;
+}
+
+.footer .social-media a {
+	margin: 3px;
 }
