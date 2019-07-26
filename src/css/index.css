@@ -120,12 +120,13 @@ a:hover + .permalink {
 }
 
 .body table {
+	width: 90%;
 	margin-left:auto;
 	margin-right:auto;
 }
 
 .body table thead th {
-	padding-right: 100px;
+	padding-right: 15%;
 	padding-bottom: 5px;
 }
 
@@ -134,7 +135,7 @@ a:hover + .permalink {
 }
 
 .body table tbody tr td {
-	padding-right: 100px;
+	padding-right: 15%;
 	text-align: center;
 	//font-size: 16px;
 }
