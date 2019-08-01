@@ -7,6 +7,10 @@ a {
 	text-decoration: none;
 }
 
+.question {
+  margin-top: 10px;
+}
+
 .menu {
     width: 25%;
     position: relative;
