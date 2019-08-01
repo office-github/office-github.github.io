@@ -1,4 +1,27 @@
 $(function(){
+	$("input[type='button']").click(function(){
+var len = $(".question").length;
+
+var totalCorrect = 0;
+var notAttended = 0;
+
+for (var i = 0; i<len; i++) {
+var isTrueAnswer = $(".answer"+i+":checked").val();
+
+var isAnswer = $("input[name='"+i+"']:checked").val();
+
+if(isTrueAnswer){
+	totalCorrect = totalCorrect + 1;
+}
+else if(!isAnswer) {
+	notAttended = notAttended + 1;
+}
+}
+
+var incorrect = len - totalCorrect - notAttended;
+
+alert("Total: " + len + ", Correct: " + totalCorrect + ", Incorrect: " + incorrect + ", Not Answered: " + notAttended);
+});
 	$('.menu nav a').on('click', function(event) {
 		$(this).parent().find('a').removeClass('active');
 		$(this).addClass('active');
